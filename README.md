@@ -1,4 +1,4 @@
-#K8s cluster automatically install
+# K8s cluster automatically install
 
 ## How to use 
 
