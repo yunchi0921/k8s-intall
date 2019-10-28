@@ -1,0 +1,148 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Ign:1 http://deb.debian.org/debian stretch InRelease
+Hit:2 http://security.debian.org stretch/updates InRelease
+Hit:3 http://deb.debian.org/debian stretch-updates InRelease
+Hit:4 http://deb.debian.org/debian stretch-backports InRelease
+Hit:5 http://deb.debian.org/debian stretch Release
+Hit:7 http://packages.cloud.google.com/apt cloud-sdk-stretch InRelease
+Hit:8 https://download.docker.com/linux/debian stretch InRelease
+Hit:9 http://packages.cloud.google.com/apt google-compute-engine-stretch-stable InRelease
+Hit:6 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
+Hit:11 http://packages.cloud.google.com/apt google-cloud-packages-archive-keyring-stretch InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt-transport-https is already the newest version (1.4.9).
+ca-certificates is already the newest version (20161130+nmu1+deb9u1).
+curl is already the newest version (7.52.1-5+deb9u9).
+software-properties-common is already the newest version (0.96.20.2-1).
+0 upgraded, 0 newly installed, 0 to remove and 10 not upgraded.
+Add Docker's official GPG key
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+OK
+Set up the docker stable repository
+Add gpg kubernetes key
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+OK
+deb http://apt.kubernetes.io/ kubernetes-xenial main
+Install docker-ce kubectl kubelet kubeadm
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://security.debian.org stretch/updates InRelease
+Ign:2 http://deb.debian.org/debian stretch InRelease
+Hit:3 http://deb.debian.org/debian stretch-updates InRelease
+Hit:4 http://deb.debian.org/debian stretch-backports InRelease
+Hit:5 http://deb.debian.org/debian stretch Release
+Hit:6 https://download.docker.com/linux/debian stretch InRelease
+Hit:8 http://packages.cloud.google.com/apt cloud-sdk-stretch InRelease
+Hit:9 http://packages.cloud.google.com/apt google-compute-engine-stretch-stable InRelease
+Hit:7 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
+Hit:10 http://packages.cloud.google.com/apt google-cloud-packages-archive-keyring-stretch InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:5
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:5
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:5
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:5
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:2
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:3
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:4
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:5
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:5
+W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:5
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/kubernetes.list:1 and /etc/apt/sources.list.d/kubernetes.list:5
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+docker-ce is already the newest version (18.06.2~ce~3-0~debian).
+kubernetes-cni is already the newest version (0.7.5-00).
+The following packages will be upgraded:
+  kubeadm kubectl kubelet
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+3 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+Need to get 0 B/37.2 MB of archives.
+After this operation, 32.8 kB of additional disk space will be used.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 61231 files and directories currently installed.)
+Preparing to unpack .../kubelet_1.15.3-00_amd64.deb ...
+Unpacking kubelet (1.15.3-00) over (1.15.2-00) ...
+Preparing to unpack .../kubectl_1.15.3-00_amd64.deb ...
+Unpacking kubectl (1.15.3-00) over (1.15.2-00) ...
+Preparing to unpack .../kubeadm_1.15.3-00_amd64.deb ...
+Unpacking kubeadm (1.15.3-00) over (1.15.2-00) ...
+Setting up kubelet (1.15.3-00) ...
+Setting up kubectl (1.15.3-00) ...
+Setting up kubeadm (1.15.3-00) ...
+[preflight] Running pre-flight checks
+	[WARNING IsDockerSystemdCheck]: detected "cgroupfs" as the Docker cgroup driver. The recommended driver is "systemd". Please follow the guide at https://kubernetes.io/docs/setup/cri/
+error execution phase preflight: [preflight] Some fatal errors occurred:
+	[ERROR FileAvailable--etc-kubernetes-kubelet.conf]: /etc/kubernetes/kubelet.conf already exists
+	[ERROR FileAvailable--etc-kubernetes-bootstrap-kubelet.conf]: /etc/kubernetes/bootstrap-kubelet.conf already exists
+	[ERROR Port-10250]: Port 10250 is in use
+	[ERROR FileAvailable--etc-kubernetes-pki-ca.crt]: /etc/kubernetes/pki/ca.crt already exists
+[preflight] If you know what you are doing, you can make a check non-fatal with `--ignore-preflight-errors=...`

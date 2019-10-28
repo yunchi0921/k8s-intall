@@ -1,0 +1,41 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://security.debian.org stretch/updates InRelease
+Ign:2 http://deb.debian.org/debian stretch InRelease
+Hit:3 http://deb.debian.org/debian stretch-updates InRelease
+Hit:4 http://deb.debian.org/debian stretch-backports InRelease
+Hit:5 http://deb.debian.org/debian stretch Release
+Hit:6 http://packages.cloud.google.com/apt cloud-sdk-stretch InRelease
+Hit:8 http://packages.cloud.google.com/apt google-compute-engine-stretch-stable InRelease
+Get:9 https://download.docker.com/linux/debian stretch InRelease [44.8 kB]
+Hit:11 http://packages.cloud.google.com/apt google-cloud-packages-archive-keyring-stretch InRelease
+Get:7 https://packages.cloud.google.com/apt kubernetes-xenial InRelease [8,993 B]
+Get:12 https://download.docker.com/linux/debian stretch/stable amd64 Packages [9,983 B]
+Get:13 https://packages.cloud.google.com/apt kubernetes-xenial/main amd64 Packages [28.4 kB]
+Fetched 92.2 kB in 1s (90.8 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+5 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt-transport-https is already the newest version (1.4.9).
+ca-certificates is already the newest version (20161130+nmu1+deb9u1).
+curl is already the newest version (7.52.1-5+deb9u9).
+software-properties-common is already the newest version (0.96.20.2-1).
+0 upgraded, 0 newly installed, 0 to remove and 5 not upgraded.
+Add Docker's official GPG key
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+OK
+Set up the docker stable repository
+Add gpg kubernetes key
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+OK
+deb http://apt.kubernetes.io/ kubernetes-xenial main
+bash: line 15: unexpected EOF while looking for matching `"'
+bash: line 18: syntax error: unexpected end of file
